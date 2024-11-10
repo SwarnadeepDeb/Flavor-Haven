@@ -46,19 +46,12 @@
     color: #333333;
     background-color: #f0f4f8;
 }
-
-@media (max-width: 768px) {
-    #navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar-links ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
+.handbarger{
+    display: none;
+    font-size: 25px;
 }
+
+
 
 #hero {
     display: flex;
@@ -67,15 +60,18 @@
     padding: 50px;
     height: calc(100vh - 70px);
     color: #ffffff; 
-    position: relative;
+    /* position: relative; */
+    width: 100%;
 }
 
 .hero-content {
-    max-width: 450px;
-    padding: 20px;
     border-radius: 10px;
     text-align: left;
     color: #1e3a8a; 
+    width: 100%;
+}
+.hero-image{
+    width: 100%;
 }
 
 .hero-content h1 {
@@ -111,53 +107,6 @@
     transform: translateY(-3px); 
 }
 
-#hero {
-    background-image: url('images/Shop\ Image.avif'); 
-    background-size: 120cqmin; 
-    background-position: 100%;
-    background-repeat: no-repeat; 
-}
-
-@media (max-width: 1120px) {
-    #hero {
-        background-size: cover; 
-        background: linear-gradient(
-            rgba(255, 255, 255, 0.7),
-            rgba(255, 255, 255, 0.5) 
-        ), url('images/shop image 1.avif'); 
-        background-position: center; 
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
-
-@media (max-width: 768px) {
-    #hero {
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center; 
-        padding: 40px; 
-    }
-
-    .hero-content {
-        max-width: 90%;
-        padding: 20px;
-        text-align: center; 
-    }
-
-    .hero-content h1 {
-        font-size: 2.5em; 
-    }
-
-    .hero-content p {
-        font-size: 1.1em;  
-    }
-
-    .cta-button {
-        padding: 15px 30px; 
-        font-size: 1.1em;
-    }
-}
 
 
 
@@ -400,4 +349,72 @@ footer a{
     text-decoration: none;
     color: white;
     font-weight: bolder;
+}
+
+
+
+@media (max-width: 1107px) {
+    #hero {
+        flex-direction: column-reverse; 
+        justify-content: flex-end;
+        align-items: center; 
+        text-align: center; 
+        padding: 20px; 
+        height: auto;
+    }
+    .hero-image img{
+        width: 350px;
+        
+    }
+    #intro{
+        padding: 20px;
+    }
+    #gallery{
+        padding: 20px;
+    }
+    #specials{
+        padding: 20px;
+    }
+    #chef-specials{
+        padding: 20px;
+    }
+    #testimonials{
+        padding: 20px;
+    }
+    #contact{
+        padding: 20px;
+    }
+    .hero-content {
+        max-width: 90%;
+        padding: 20px;
+        text-align: center; 
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em; 
+    }
+
+    .hero-content p {
+        font-size: 1.1em;  
+    }
+
+    .cta-button {
+        padding: 15px 30px; 
+        font-size: 1.1em;
+    }
+    .navbar-links ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+}
+@media (max-width: 1233px){
+    .navbar-links{
+        display: none;
+    }
+    .handbarger{
+        display: flex;
+    }
 }
