@@ -7,9 +7,20 @@ Welcome to **Flavor Haven**, a visually engaging static website for a restaurant
 
 You can view the live website [here](https://swarnadeepdeb.github.io/Flavor-Haven/).
 
-## Screenshot
 
-![Flavor Haven Screenshot](images/flavor%20Haven.png).
+## Screenshots
+
+### Desktop View
+- **Home Page**  
+  ![Project Home Page](images/flavor%20Haven.png)
+
+### Mobile View
+- **Home Page**  
+  ![Mobile Home Page](images/screencapture-swarnadeepdeb-github-io-Flavor-Haven-2024-11-10-12_16_15.png)
+
+### Tablet View
+- **Home Page**  
+  ![Tablet Home Page](images/screencapture-swarnadeepdeb-github-io-Flavor-Haven-2024-11-10-12_16_43.png)
 
 ## Project Structure
 
