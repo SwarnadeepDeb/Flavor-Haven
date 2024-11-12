@@ -46,11 +46,19 @@
     color: #333333;
     background-color: #f0f4f8;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 .handbarger{
     display: none;
-    font-size: 25px;
 }
-
+.handbarger i{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
 
 
 #hero {
